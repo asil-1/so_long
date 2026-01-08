@@ -1,32 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   so_long.h                                          :+:      :+:    :+:   */
+/*   parsing.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: ldepenne <ldepenne@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/01/06 16:29:42 by ldepenne          #+#    #+#             */
-/*   Updated: 2026/01/08 15:03:46 by ldepenne         ###   ########.fr       */
+/*   Created: 2026/01/08 14:54:45 by ldepenne          #+#    #+#             */
+/*   Updated: 2026/01/08 15:28:32 by ldepenne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#ifndef SO_LONG_H
-# define SO_LONG_H
+#include "../include/so_long.h"
 
-# include "libft/include/libft.h"
-# include "ft_printf/include/ft_printf.h"
-
-# include <stdlib.h>
-# include <stdio.h>
-# include <unistd.h>
-# include "MLX42/MLX42.h"
-# define WIDTH 1350
-# define HEIGHT 800
-
-# ifndef BUFFER_SIZE
-#  define BUFFER_SIZE 1
-# endif
-
-int	main(void);
-
-#endif
+int	valid_map(int fd)
+{
+	if (fd < 0)
+		return (0);
+	
+}

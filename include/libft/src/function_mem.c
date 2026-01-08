@@ -6,7 +6,7 @@
 /*   By: ldepenne <ldepenne@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/12/04 09:54:07 by ldepenne          #+#    #+#             */
-/*   Updated: 2025/12/08 17:02:29 by ldepenne         ###   ########.fr       */
+/*   Updated: 2026/01/06 18:26:17 by ldepenne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -82,6 +82,10 @@ void	*ft_memmove(void *dest, const void *src, size_t n)
 	return (dest);
 }
 
+/** @brief This function fills a memory area,
+* identified by its address and size,
+* with a specific value.
+*/
 void	*ft_memset(void *s, int c, size_t n)
 {
 	size_t	i;

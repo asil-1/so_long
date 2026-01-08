@@ -56,13 +56,18 @@ $(OBJ_DIR):
 clean:
 	@make -C include/libft/ clean
 	@make -C include/ft_printf/ clean
-	rm -rf $(BUILD_DIR)
+	@rm -rf $(BUILD_DIR)
+	@echo "clean"
 
 fclean: clean
-	rm -rf $(NAME)
+	@rm -rf $(NAME)
+	@echo "so_long"
 	@rm -f $(LIBFT)
+	@echo "libft"
 	@rm -f $(FT_PRINTF)
+	@echo "ft_printf"
 	@rm -rf $(MLX_DIR)/build
+	@echo "MLX42"
 
 re: fclean all
 

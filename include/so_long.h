@@ -6,7 +6,7 @@
 /*   By: ldepenne <ldepenne@student.42angouleme.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/01/06 16:29:42 by ldepenne          #+#    #+#             */
-/*   Updated: 2026/01/06 16:44:21 by ldepenne         ###   ########.fr       */
+/*   Updated: 2026/01/08 11:19:04 by ldepenne         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,5 +22,7 @@
 # include "MLX42/MLX42.h"
 # define WIDTH 256
 # define HEIGHT 256
+
+int	main(void);
 
 #endif

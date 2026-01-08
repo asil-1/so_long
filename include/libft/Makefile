@@ -63,10 +63,10 @@ $(OBJ_DIR):
 	@mkdir -p $@
 
 clean:
-	rm -rf $(BUILD_DIR) bonus
+	@rm -rf $(BUILD_DIR) bonus
 
 fclean: clean
-	rm -rf $(NAME)
+	@rm -rf $(NAME)
 
 re: fclean all
 
